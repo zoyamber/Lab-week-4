@@ -46,7 +46,8 @@ terraform plan -out plan.out
 terraform apply plan.out
 ```
 
-<img width="702" height="978" alt="image" src="https://github.com/user-attachments/assets/8d5e4267-864b-4d3a-bc01-35d25c116f51" />
+<img width="888" height="434" alt="image" src="https://github.com/user-attachments/assets/ea08b0b9-1507-407e-a9ef-2ae2e5a05e5c" />
+
 
 
 <img width="846" height="1176" alt="image" src="https://github.com/user-attachments/assets/0e1b5fca-8044-45ce-872e-35cfb444931d" />
