@@ -65,23 +65,23 @@ This confirms:
 
 # Task 3 – Infrastructure Validation
 
-Terraform validation and plan results:
+## Verify Web Server is Running
 
-```bash
-terraform validate
-terraform plan -out plan.out
-terraform apply plan.out
+After connecting to the EC2 instance, open the public IP address in a browser:
+
+```
+http://<PUBLIC_IP>
 ```
 
-Results show:
+### Screenshot – Nginx Default Page
+<img width="1326" height="876" alt="image" src="https://github.com/user-attachments/assets/ff6a2cd6-940c-460b-9d42-540a30615af0" />
 
-- Configuration is **valid**
-- **No infrastructure drift**
-- Apply shows **0 added, 0 changed, 0 destroyed**
 
-This confirms the Terraform state matches the deployed AWS infrastructure.
+This confirms:
 
----
+- **cloud-init successfully installed nginx**
+- **HTTP port 80 is reachable**
+- **EC2 instance is publicly accessible**
 
 # Summary
 
