@@ -1,0 +1,18 @@
+#cloud-config
+package_update: true
+
+packages:
+  - nginx
+  - nmap
+
+users:
+  - name: web
+    primary_group: web
+    groups: [sudo]
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh_authorized_keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIQ0d0rR9Ltnpkc1ZFofYej4EE9Ul1NB+L1liTvg+0VZt lab4
+
+runcmd:
+  - systemctl enable --now nginx
