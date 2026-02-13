@@ -43,6 +43,9 @@ Provide:
 
 ## Create a New SSH Key Pair
 
+<img width="1780" height="832" alt="image" src="https://github.com/user-attachments/assets/bafc7e5c-c246-48c3-b0e6-843fa557c686" />
+
+
 ```bash
 ssh-keygen -t ed25519 -f ~/.ssh/lab4 -C "lab4"
 ```
