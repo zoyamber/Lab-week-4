@@ -9,7 +9,7 @@ It uses **Terraform** to provision AWS infrastructure and **cloud-init** to conf
 
 ## Create SSH Key Pair
 
-<img width="500" height="68" alt="image" src="https://github.com/user-attachments/assets/15d75666-32ef-478b-b5ca-1578c148b12f" />
+<img width="500" height="168" alt="image" src="https://github.com/user-attachments/assets/15d75666-32ef-478b-b5ca-1578c148b12f" />
 
 
 
