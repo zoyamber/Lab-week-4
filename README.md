@@ -27,7 +27,8 @@ Command used:
 aws configure
 ```
 
-<img width="866" height="186" alt="image" src="https://github.com/user-attachments/assets/676a5889-7501-4e6f-863c-dd7ef31dd039" />
+<img width="512" height="72" alt="image" src="https://github.com/user-attachments/assets/da8763f4-feb1-47d7-a9e5-cbd40ac97d4e" />
+
 
 
 ---
